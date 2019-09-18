@@ -1,0 +1,52 @@
+.navbar {
+  font-family: 'Manjari', sans-serif;
+  background: black;
+  width: 100%;
+  position: sticky;
+  z-index: 100%;
+}
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: grey;
+}
+
+nav img {
+  width: auto;
+  height: 50px;
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  nav img {
+    float: left;
+  }
+  nav ul li a {
+    float: right;
+  }
+  .nombre {
+    display: none;
+  }
+}
+
+.icon {
+  margin-right: .40rem;
+}
