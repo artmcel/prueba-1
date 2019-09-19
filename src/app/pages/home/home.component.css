@@ -1,0 +1,47 @@
+.imagen {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .eimg {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .eximg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    float: center;
+  }
+}
