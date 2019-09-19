@@ -5,13 +5,13 @@
 }
 
 .container {
-  margin-top: 15px;
-  padding: 25px;
+  padding: 30px;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
+  margin-top: 70px;
 }
 
 /* For mobile phones: */

@@ -2,8 +2,8 @@
   font-family: 'Manjari', sans-serif;
   background: black;
   width: 100%;
-  position: sticky;
-  z-index: 100%;
+  position: sticky !important;
+  z-index: 100% !important;
 }
 nav {
   float: left;
@@ -37,7 +37,7 @@ nav img {
 
 @media screen and (max-width: 600px) {
   nav img {
-    float: left;
+    float: right;
   }
   nav ul li a {
     float: right;
@@ -49,4 +49,10 @@ nav img {
 
 .icon {
   margin-right: .40rem;
+}
+
+@media screen and (max-width: 300px) {
+  nav img {
+    display: none;
+  }
 }
