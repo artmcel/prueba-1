@@ -1,0 +1,41 @@
+footer {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    background: #8080801f;
+    bottom: 0;
+    width: 100%;
+    text-align: center !important;
+}
+
+@media only screen and (min-width: 600px) {
+    footer {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    footer {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    footer {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    footer {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+      float: center;
+    }
+  }
