@@ -1,35 +1,39 @@
-<nav class="navbar">
-  <ul>
-    <li>
-      <a routerLink="/home">
-        <span class="icon is-small">
-          <i class="fas fa-home"></i>
-        </span>
-        <span class="nombre">Home</span>
-      </a>
-    </li>
+<header>
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a routerLink="/home" [routerLinkActive]="['active']">
+          <span class="icon is-small">
+            <i class="fas fa-home"></i>
+          </span>
+          <span class="nombre">Home</span>
+        </a>
+      </li>
 
-    <li>
-      <a routerLink="/quienes-somos">
-        <span class="icon is-small">
-          <i class="fas fa-question"></i>
-        </span>
-        <span class="nombre">¿Quiénes somos?</span>
-      </a>
-    </li>
+      <li>
+        <a routerLink="/quienes-somos" [routerLinkActive]="['active']">
+          <span class="icon is-small">
+            <i class="fas fa-question"></i>
+          </span>
+          <span class="nombre">Quiénes somos</span>
+        </a>
+      </li>
 
-    <li>
-      <a routerLink="/blog">
-        <span class="icon is-small">
-          <i class="fas fa-newspaper"></i>
-        </span>
-        <span class="nombre">Blog</span>
-      </a>
-    </li>
+      <li>
+        <a routerLink="/blog" [routerLinkActive]="['active']">
+          <span class="icon is-small">
+            <i class="fas fa-newspaper"></i>
+          </span>
+          <span class="nombre">Blog</span>
+        </a>
+      </li>
 
-    <picture>
-      <img src="../../../assets/img/2517507.png" alt="">
-    </picture>
-  </ul>
-</nav>
+      <picture>
+        <a [href]="['/home']">
+          <img src="../../../assets/img/2517507.png" alt="">
+        </a>
+      </picture>
+    </ul>
+  </nav>
+</header>
 <router-outlet></router-outlet>

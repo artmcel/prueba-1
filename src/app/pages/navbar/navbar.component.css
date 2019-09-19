@@ -1,3 +1,8 @@
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
 .navbar {
   font-family: 'Manjari', sans-serif;
   background: black;
@@ -25,7 +30,13 @@ nav ul li a {
   text-decoration: none;
 }
 
+/*
 nav ul li:hover {
+  background: grey;
+}
+*/
+
+.active {
   background: grey;
 }
 
@@ -33,6 +44,7 @@ nav img {
   width: auto;
   height: 50px;
   float: right;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 600px) {

@@ -3,6 +3,13 @@
     margin-top: 10px;
 }
 
+.fa-thumbs-up {
+  color: green;
+}
+
+.fa-thumbs-down {
+  color: red;
+}
 
 @media only screen and (max-width: 600px) {
   img {
@@ -14,7 +21,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .eimg {
+  .img {
     max-width: 100%;
     height: auto;
   }
@@ -28,7 +35,7 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .eximg {
+  .img {
     max-width: 100%;
     height: auto;
     display: block;
